@@ -28,7 +28,7 @@ setup(
     description="Humanoid Benchmark",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=find_packages(),
+    packages=find_packages(include=['humanoid_bench', 'humanoid_bench.*']),
     include_package_data=True,
     python_requires=">3.7",
     install_requires=core_requirements,

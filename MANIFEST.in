@@ -1,0 +1,4 @@
+include humanoid_bench/*.py
+include humanoid_bench/envs/*.py
+include humanoid_bench/assets/*
+recursive-include humanoid_bench/assets *
